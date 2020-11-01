@@ -3,12 +3,7 @@
 				padding:0px;
 			}
 
-body, .nav, .logotipo{
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
+
 
 /* Coloca la clase header que esta dentro del DIC centrada */			
 #header {
