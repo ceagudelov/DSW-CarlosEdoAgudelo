@@ -1,9 +1,7 @@
 * {
-				margin:0px;
-				padding:0px;
-			}
-
-
+	margin:0px;
+	padding:0px;
+}
 
 /* Coloca la clase header que esta dentro del DIC centrada */			
 #header {
@@ -55,17 +53,17 @@ ul, ol {
 	top:0px;
 }
 
-.main { /* Main y articulos */
+.main .articles { /* Main y articulos */
 	width:68.5%;
 	margin-right:1.5%; /* Asignamos la margen */
 	float:left;
 	background:white;
 }
 
-.articles{ /* Main y articulos */
+.main .articles{ /* Main y articulos */
 	width:68.5%;
 	margin-right:1.5%; /* Asignamos la margen */
-	float:center;
+	float:left;
 	background:white;
 }
 .main .articles article{
