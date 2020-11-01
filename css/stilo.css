@@ -3,6 +3,9 @@
 	padding:0px;
 }
 
+body{
+	font: 150% Body;
+}
 /* Coloca la clase header que esta dentro del DIC centrada */			
 #header {
 		margin:auto;
