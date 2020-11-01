@@ -55,13 +55,19 @@ ul, ol {
 	top:0px;
 }
 
-.main .articles{ /* Main y articulos */
+.main { /* Main y articulos */
 	width:68.5%;
 	margin-right:1.5%; /* Asignamos la margen */
 	float:left;
 	background:white;
 }
 
+.articles{ /* Main y articulos */
+	width:68.5%;
+	margin-right:1.5%; /* Asignamos la margen */
+	float:center;
+	background:white;
+}
 .main .articles article{
 	padding:20px; /* Asignamos margenes a los articulos*/
 	background:white;
