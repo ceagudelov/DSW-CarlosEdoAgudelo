@@ -3,7 +3,7 @@
 				padding:0px;
 			}
 
-body, .nav, .logotipo{
+body .logotipo .nav, {
   margin-left: 10px;
   margin-right: 10px;
   margin-top: 10px;
