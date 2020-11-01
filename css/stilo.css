@@ -10,7 +10,6 @@ body{
 #header {
 		margin:auto;
 		width:500px;
-		font-family:Verdana, Helvetica, sans-serif;
 		float:left;
 		max-height:1000px; /* Asignamos un tamaño maximo de 1000 piceles  */
 		margin:20px auto; /* AAsignamos una margen de 20 pieles y que sea auto */
