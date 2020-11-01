@@ -4,10 +4,10 @@
 			}
 
 body, .nav, .logotipo{
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-left: 100px;
+  margin-right: 50px;
+  margin-top: 100px;
+  margin-bottom: 50px;
 }
 
 /* Coloca la clase header que esta dentro del DIC centrada */			
@@ -27,7 +27,8 @@ ul, ol {
 .nav > li {
 	float:left;
 }
-			
+
+/* Configurarmos Menu, ubicacion, color*/			
 .nav li a {
 	background-color:#054468;
 	color:#fff;
