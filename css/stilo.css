@@ -38,8 +38,11 @@ ul, ol {
 }
 			
 .nav li a:hover {
-	background-color:#434343;
+	background-color:#e19f37;
 }
+
+header nav ul li a:hover{ /* Cambia el color del menu al pasar el cursor  */
+	background:#e19f37;
 			
 .nav li ul {
 	display:none;
@@ -74,8 +77,7 @@ ul, ol {
 
 }
 
-header nav ul li a:hover{ /* Cambia el color del menu al pasar el cursor  */
-	background:#e19f37;
+
 }
 
 aside{
