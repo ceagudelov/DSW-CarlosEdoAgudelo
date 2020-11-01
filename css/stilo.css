@@ -4,7 +4,7 @@
 }
 
 body{
-	font: 150% Body;
+	font: 100% Body;
 }
 /* Coloca la clase header que esta dentro del DIC centrada */			
 #header {
@@ -81,7 +81,7 @@ header nav ul li a:hover{ /* Cambia el color del menu al pasar el cursor  */
 
 aside{
 	width:30%;
-	background:#ff8000;
+	background:white;
 	float:right;
 	padding:20px;
 	box-sizing:border-box;
