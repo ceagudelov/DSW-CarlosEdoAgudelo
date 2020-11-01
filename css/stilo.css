@@ -82,7 +82,7 @@ header nav ul li a:hover{ /* Cambia el color del menu al pasar el cursor  */
 aside{
 	width:30%;
 	background:#ff8000;
-	float:left;
+	float:right;
 	padding:20px;
 	box-sizing:border-box;
 }
