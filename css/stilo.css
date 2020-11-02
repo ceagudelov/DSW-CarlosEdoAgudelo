@@ -13,7 +13,7 @@ body{
 /* Coloca la clase header que esta dentro del DIC centrada */			
 #header {
 		margin:auto;
-		width:500px;
+		width:100%;
 		float:left;
 		max-height:1000px; /* Asignamos un tamaño maximo de 1000 piceles  */
 		margin:20px auto; /* AAsignamos una margen de 20 pieles y que sea auto */
@@ -56,7 +56,7 @@ ul, ol {
 			
 .nav li ul li ul {
 	right:-140px;
-	top:0px;
+	top:100px;
 }
 
 .main .articles { /* Main y articulos */
@@ -97,6 +97,7 @@ aside{
 }
 
 footer{ /* Colocamos posicion de footer */
+	
 	background:#e19f37;
 	padding: 10px 0px ;
 	color:White;
