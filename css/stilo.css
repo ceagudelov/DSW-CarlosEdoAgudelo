@@ -18,7 +18,10 @@ body{
 		max-height:1000px; /* Asignamos un tamaño maximo de 1000 piceles  */
 		margin:20px auto; /* AAsignamos una margen de 20 pieles y que sea auto */
 }
-			
+
+h3 {
+text-align:center
+}	
 ul, ol {
 	list-style:none;
 	}

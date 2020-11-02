@@ -18,13 +18,13 @@
 					<! -- Creamos submenu -->
 					<ul>
 						<li><a href="estructura.html">HTML</a></li>
-						<li><a href="css.html">CSS</a></li>
+						<li><a href="css.html">ETIQUETAS, ATRIBUTOS Y ELEMENTOS</a></li>
 					</ul>
 				</li>
 				<li><a href="">RECURSOS</a>
 					<! -- Creamos submenu -->
 					<ul>
-						<li><a href="">VIDEOS</a></li>
+						<li><a href="video.html">VIDEO</a></li>
 						<li><a href="">FOTOS</a></li>
 					</ul>
 				</li>
@@ -43,34 +43,69 @@
 		<section class="main"> <!-- Section para los Arituclos-->
 			<section class="articles"> <!-- Section para los Arituclos-->
 				<article> <!-- Creamos el articulo-->
-					<h2> Que es CSS</h2> 
+					<h3> Etiquetas</h3> <br></br>
 					<!-- P creamos el parrafo-->
-					<p>CSS (en inglés Cascading Style Sheets) es lo que se denomina lenguaje de hojas de estilo en cascada y se usa para estilizar elementos escritos en un lenguaje de marcado
-					como HTML. CSS separa el contenido de la representación visual del sitio. <br></br>
-					CSS fue desarrollado por W3C (World Wide Web Consortium) en 1996 por una razón muy sencilla. HTML no fue diseñado para tener etiquetas que ayuden a formatear la página. 
-					Está hecho solo para escribir el marcado para el sitio. 
-					<br></br>
-					Se incluyeron etiquetas como <font> en HTML versión 3.2, y esto les causó muchos problemas a los desarrolladores. Dado que los sitios web tenían diferentes fuentes, fondos de colores 
-					y estilos, el proceso de reescribir el código fue largo, doloroso y costoso. Por lo tanto, CSS fue creado por W3C para resolver este problema.
-					<br></br>
-					La relación entre HTML y CSS es muy fuerte. Dado que HTML es un lenguaje de marcado (es decir, constituye la base de un sitio) y CSS enfatiza el estilo (toda la parte estética de un sitio web), van de la mano.
-					<br></br>
-					CSS no es técnicamente una necesidad, pero no querrás tener un sitio que solo tenga HTML, ya que se vería completamente desnudo.
-					<br></br>
-					<h2> Ventajas de CSS</h2> <br></br>
-					CSS permite estilizar todo en un archivo diferente, creando el estilo allí y después integrando el archivo CSS sobre el marcado HTML. Esto hace que el marcado HTML sea mucho más limpio y fácil de mantener.
-					<br></br>
-					En resumen, con CSS no tienes que describir repetidamente cómo se ven los elementos individuales. Esto ahorra tiempo, hace el código más corto y menos propenso a errores.
-					<br></br>
-					CSS te permite tener múltiples estilos en una página HTML, y esto hace que las posibilidades de personalización sean casi infinitas. Hoy en día, esto se está volviendo una necesidad más que algo básico.
+					<p>
+						Las etiquetas son la estructura básica del HTML. Estas etiquetas o tags se componen y contienen otras propiedades, como son los atributos y el contenido.
+						una etiqueta por sí sola a veces no contiene la suficiente información para estar completamente definida. Para ello contamos con los atributos: pares nombre-valor 
+						separados por "=" y escritos en la etiqueta inicial de un elemento después del nombre del elemento. El valor puede estar encerrado entre "comillas dobles" o 
+						'simples'. Existen, también, algunos atributos que afectan al elemento por su presencia en la etiqueta de inicio, como puede ser el atributo ismap para el elemento <img>.
+						Esta sería la estructura general de una línea de código en lenguaje HTML: 
+						<strong> tag attribute1="value1" attribute2="value2" </strong> O lo que es lo mismo, con un ejemplo:
+						<p>
+						<strong>"a href="http://www.enlace.com" target="_blank">Ejemplo de enlace"</strong>
+						
+						Donde:
+
+						a es la etiqueta o tag inicial y </a> la etiqueta de cierre.
+						href y target son los atributos.
+						http://www.enlace.com y _blank son las variables.
+						Ejemplo de enlace es el contenido.<p>
 					</p>
 					<br></br>
-					<h2>Cómo funciona CSS</h2>
-					<p>CSS utiliza una sintaxis simple basada en el inglés con un conjunto de reglas que la gobiernan. Como mencionamos anteriormente, HTML no fue hecho con la intención de utilizar elementos de estilo, sino solo para el marcado de 
-					la página. Fue creado simplemente para describir el contenido. Por ejemplo: </p><br></br>
-					<img src="imagenes/css.jpg" alt="HTML" title="Html" width="500" height="200"/>  <!---Insertamos una imagen e informacion de la misma--> <br></br>
-					<strong>Bibliografia y Fuente:</strong>
-					¿Qué Es CSS? (2019, enero 24). Tutoriales Hostinger. https://www.hostinger.co/tutoriales/que-es-css/
+					<h3> Atributos</h3> <br></br>					
+					<p>
+						Aunque cada una de las etiquetas HTML define sus propios atributos, encontramos algunos comunes a muchas o 
+						casi todas las etiquetas, que se dividen en cuatro grupos según su funcionalidad:<br></br>
+					<ul>
+						<li><a> <strong>- Atributos básicos: </strong>Los atributos básicos se utilizan en la mayoría de etiquetas HTML y XHTML, aunque adquieren mayor sentido cuando se utilizan hojas de estilo en cascada (CSS).</a></li>
+							<br></br>
+							<img src="imagenes/Atributos_basicos.jpg" alt="HTML" title="Html" width="500" height="150" /> 
+							<br></br>
+						<li><a> <strong>- Atributos de internacionalización: </strong>Estos atributos se utilizan en aquellas páginas que muestran sus contenidos en varios idiomas y las que quieran indicar de forma explícita el idioma de sus contenidos.</a></li>
+							<br></br>
+							<img src="imagenes/Atributos_inter.jpg" alt="HTML" title="Html" width="500" height="150" /> 
+							<br></br>
+						<li><a> <strong>- Atributos de eventos:</strong> Estos atributos se utilizan en las páginas web que incluyen código JavaScript para realizar acciones dinámicas sobre los elementos de la página.</a></li>
+							<br></br>
+							<img src="imagenes/Atributos_Eventos.png" alt="HTML" title="Html" width="600" height="350" /> 
+							<br></br>
+						<li><a> <strong>-  Atributos de foco: </strong> Se le denomina foco o focus, cuando un control o elemento del documento ha sido seleccionado. Cuando ese elemento deja de estar seleccionado, 
+						"pierde el foco" y es el nuevo elemento seleccionado el que se dice que tiene "el foco".</a></li>
+							<br></br>
+							<img src="imagenes/Atributos_foco.JPG" alt="HTML" title="Html" width="550" height="250" /> 
+							<br></br>
+						
+					
+					</ul>					
+						
+					</p>
+					<br></br>
+					<h3> Elementos</h3> <br></br>
+					<p>
+						Además de etiquetas y atributos, HTML define el término elemento para referirse a las partes que componen los documentos HTML. 
+						Como ya hemos mencionado antes, la estructura general de una línea de código en lenguaje HTML sería ésta: 
+						<strong>"tag attribute1="value1" attribute2="value2">content tag"</strong>
+						<br></br>
+						El lenguaje HTML clasifica a todos los elementos en dos grupos: elementos en línea o inline elements y elementos en bloque o block elements.
+						La diferencia entre ambos viene dada por el modelo de contenido, por el formato y la dirección. La principal diferencia entre los dos tipos de 
+						elementos es la forma en la que ocupan el espacio disponible en la página: los elementos en bloque siempre empiezan en una nueva línea y ocupan todo el espacio disponible 
+						hasta el final de la línea, mientras que los elementos en línea sólo ocupan el espacio necesario para mostrar sus contenidos.
+					
+					<br></br><strong>Bibliografia y Fuente::</strong>
+					Etiquetas, atributos y elementos | XHTML. (s. f.). Recuperado 1 de noviembre de 2020, de https://www.arkaitzgarro.com/xhtml/capitulo-3.html
+
+					</p>
 				</article>
 		</section>
 		</section>
