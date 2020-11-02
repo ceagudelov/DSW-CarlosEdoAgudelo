@@ -5,6 +5,10 @@
 
 body{
 	font: 100% Body;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 /* Coloca la clase header que esta dentro del DIC centrada */			
 #header {
@@ -28,7 +32,7 @@ ul, ol {
 	background-color:#054468;
 	color:#fff;
 	text-decoration:none;
-	padding:10px 12px;
+	padding:20px 20px;
 	display:block;
 }
 			
