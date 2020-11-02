@@ -4,7 +4,7 @@
 }
 
 body{
-	font: 100% Body;
+	font: 100% Verdana;
 	margin-left: 10px;
 	margin-right: 10px;
 	margin-top: 10px;
@@ -84,20 +84,28 @@ header nav ul li a:hover{ /* Cambia el color del menu al pasar el cursor  */
 }
 
 aside{
-	width:30%;
+	background-color:#054468;
+	height: 2000px;
+	width: 300px;
+	overflow: scroll;
+	border: black 1px solid;
 	background:white;
 	float:right;
 	padding:20px;
 	box-sizing:border-box;
+	height: 500px;
 }
 
 footer{ /* Colocamos posicion de footer */
-	background:#054468;
+	background:#e19f37;
 	padding: 10px 0px ;
 	color:White;
 	clear:both;
-	text-align:center;
+	text-align:left;
 	margin-top:50px;
     width:100%;
+	font: 100% Verdana;
+	margin-left: 10px;
+	margin-right: 10px;
 }
 			
