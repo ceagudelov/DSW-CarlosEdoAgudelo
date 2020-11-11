@@ -19,9 +19,19 @@ body{
 		margin:20px auto; /* AAsignamos una margen de 20 pieles y que sea auto */
 }
 
-h3 {
-text-align:center
-color: #e19f37;
+h3{
+text-align:center;
+color: #054468;
+}
+
+
+h4{
+
+color: #054468;
+}
+
+h2{
+	color: #054468;
 }	
 ul, ol {
 	list-style:none;
@@ -84,8 +94,9 @@ ul, ol {
 }
 
 
-articles{
+.articles{
 	text-align: justify;
+	color:
 }
 
 header nav ul li a:hover{ /* Cambia el color del menu al pasar el cursor  */
@@ -107,7 +118,7 @@ aside{
 
 footer{ /* Colocamos posicion de footer */
 	
-	background:#e19f37;
+	background:#f37b23;
 	padding: 10px 0px ;
 	color:White;
 	clear:both;
