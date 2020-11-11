@@ -21,7 +21,7 @@ body{
 
 h3 {
 text-align:center
-background-color:#e19f37;
+color: #e19f37;
 }	
 ul, ol {
 	list-style:none;
@@ -83,7 +83,10 @@ ul, ol {
 
 }
 
-.
+
+articles{
+	text-align: justify;
+}
 
 header nav ul li a:hover{ /* Cambia el color del menu al pasar el cursor  */
 	background:#e19f37;
